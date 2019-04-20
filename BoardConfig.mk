@@ -79,6 +79,10 @@ WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# DATA IPA ACTIVE
+
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+
 # FM
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 BOARD_HAVE_QCOM_FM := true
@@ -147,3 +151,4 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/daisy/BoardConfigVendor.mk
+
